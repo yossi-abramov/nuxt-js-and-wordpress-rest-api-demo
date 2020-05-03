@@ -8,13 +8,15 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "nuxt": "^2.0.0",
     "@nuxtjs/axios": "^5.3.6"
   },
   "devDependencies": {
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.14.0",
     "sass-loader": "^8.0.2"
   }
